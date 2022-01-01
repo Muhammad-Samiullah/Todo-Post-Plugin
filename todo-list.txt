@@ -1,0 +1,43 @@
+<section class="action-items">
+    <h2 class="card-title">To-do list</h2>
+    
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+        <span class="sr-only">0% Complete</span>
+      </div>
+    </div>
+    <div>
+      <ul class="to-do-list" id="to-do-list">
+        
+        
+          
+  
+         
+        
+      </ul>
+    </div>
+  
+    <!-- ACTION ITEMS EXPANDED FOOTER -->
+    <div class="footer footer--with-delete-btn">
+      <!-- Delete guide button -->
+      
+        <button data-action-guide-id="db0e3ff0-a910-4a94-93d4-f82b6b3b0259" class="link-delete-guide link-secondary"  style="background: transparent">
+          <span class="icon-wrapper">
+            <img src="https://growthtools.com/assets/images/Delete.svg" alt="delete">
+            <img class="hover" src="https://growthtools.com/assets/images/Delete-hover.svg" alt="delete">
+          </span>
+          <span id="delete-text">Delete guide</span>
+        </button>
+      
+  
+      <!-- Hide todo list button -->
+      <button class="action-guide-toggle pull-right link-secondary icon-link" style="background: transparent">
+        <span class="icon-wrapper">
+          <img src="https://growthtools.com/assets/images/close.svg" alt="close icon"> 
+          <img src="https://growthtools.com/assets/images/close-hover.svg" alt="close icon" class="hover"> 
+        </span>
+        <span id="hide-text">Hide list</span>
+      </button>
+    </div>
+  </section>
+  <div id="todo-content-fields"></div>
